@@ -7,10 +7,10 @@ I detta grupprojekt ska ni skapa ett komplett Event Management-system med Blazor
 ## Teknisk specifikation  
 - **Frontend:** Blazor  
 - **Backend:** ASP.NET Core WebAPI (inkl. förenklad inloggning/auth)  
-- **Dataaccess:** Entity Framework Core  
+- **Dataaccess:** Entity Framework Core (valfritt)  
 - **Versionshantering:** Git (ni forkar ett GitHub-repo och kan sedan synka uppdateringar)
 
-## Funktionella krav
+## Funktionella krav (Kravspecifikation)
 
 ### För användare  
 - Bläddra/söka bland kommande evenemang  
@@ -27,7 +27,7 @@ I detta grupprojekt ska ni skapa ett komplett Event Management-system med Blazor
 - Hantera användare (ex. redigera, ta bort)  
 - Se enkel statistik över bokningar/evenemang  
 
-### Tekniska krav  
+## Tekniska krav  
 1. **Git-användning:**  
    - Forka det givna projektet på GitHub  
    - Använd feature branches för ny funktionalitet  
@@ -76,8 +76,8 @@ För er som vill göra något annat än Event Management-systemet finns möjligh
 
 Oavsett vilket alternativ ni väljer ska ni:  
 - Ha minst tre huvudsakliga datamodeller och relationer  
-- **(viktigt)** Inkludera både användar- och admin-funktioner  
-- Säkerställa fungerande inloggning (från färdig backend)  
+- **(viktigt)** Ta fram en kravspecifikation för er projekt
+- Säkerställa fungerande inloggning (från färdig backend) (valfritt)  
 - Implementera enklare affärslogik (ej bara datalagring)  
 - Dokumentera koden och använda Git flitigt  
 
